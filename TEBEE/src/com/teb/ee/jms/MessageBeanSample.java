@@ -11,11 +11,8 @@ import javax.jms.TextMessage;
 
 import org.jboss.logging.Logger;
 
-
 @JMSDestinationDefinitions(value = {
-		@JMSDestinationDefinition(name = "java:/jms/queue/JMSSampleQueue", 
-				destinationName = "JMSSample", 
-				interfaceName = "javax.jms.Queue"),
+		@JMSDestinationDefinition(name = "java:/jms/queue/JMSSampleQueue", destinationName = "JMSSample", interfaceName = "javax.jms.Queue"),
 		@JMSDestinationDefinition(name = "java:/jms/topic/JMSSampleTopic", destinationName = "JMSSampleTopic", interfaceName = "javax.jms.Topic")
 
 })

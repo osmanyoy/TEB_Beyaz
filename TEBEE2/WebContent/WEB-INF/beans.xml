@@ -3,9 +3,9 @@
  xmlns="http://xmlns.jcp.org/xml/ns/javaee"
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/beans_2_0.xsd">
  <alternatives>
-  <class>com.teb.ee.cdi.MyImpExecutor5</class>
+  <class>com.tebee.training.cdi.ProcessImpl5</class>
  </alternatives>
  <interceptors>
-  <class>com.teb.ee.cdi.interceptor.MyInterceptor</class>
+  <class>com.tebee.training.cdi.interceptor.MyInterceptor</class>
  </interceptors>
 </beans>
